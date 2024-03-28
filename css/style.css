@@ -24,22 +24,24 @@ table.center {
 
 
 
+
+
 header {
-  color: #500101;/* altera a cor da letra*/
-  background: #eeac9b; /* altera a cor de fundo */
+  color: #E5F9DB;/* altera a cor da letra*/
+  background: #83764F; /* altera a cor de fundo */
   font-family: 'Courier New', Courier, monospace; /* mudar a fonte */
   font-size: 15px;/* tamanho da fonte */
 }
 
 h1 {
   text-align: center ;/* alinhamento de texto */
-  background: gray;
+  background:  #83764F;
 
 }
 
 .letra-azul{ 
 font-size:25px ;
-color: blue;
+color: red;
 }
 
 
@@ -55,27 +57,32 @@ padding: 10px;/* espaçamento */
 margin: 10px;/* margem */
 
 display: flex;
-width: 10px; /* largura */
-height:10px; /* altura */
+width: 50px 50px; /* largura */
+height:50px 50px;/* altura */
 }
 
 
 a:hover {
-color: antiquewhite;
-background: #ff4b4b;
-transition: all 0.6s; /* transição */
-border: 2px solid white ; /* borda */
-
-
+color: black;
+background: #E5F9DB;
+border: 1px solid black ; /* borda */
+transition: all 0.5s; /* transição */
 }
 
 ul {
   list-style: none;/* estilo de lista */
   display: flex; /* exibir */
   flex-direction: row; /* direção */
-  justify-content:space-evenly; /* alinhar */
+  justify-content:space-evenly; /* alinhar */ 
+  align-items: center;
+  
 }
 
+.logo {
+width: 150px;
+height: 150px;
+margin-left: 1px;
+}
 
 
 
