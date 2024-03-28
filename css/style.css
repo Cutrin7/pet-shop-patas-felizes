@@ -30,7 +30,8 @@ header {
   color: #E5F9DB;/* altera a cor da letra*/
   background: #83764F; /* altera a cor de fundo */
   font-family: 'Courier New', Courier, monospace; /* mudar a fonte */
-  font-size: 15px;/* tamanho da fonte */
+  font-size: 15px;/* tamanho da fonte */ 
+  
 }
 
 h1 {
@@ -39,16 +40,11 @@ h1 {
 
 }
 
-.letra-azul{ 
-font-size:25px ;
-color: red;
-}
-
-
 p {
   font-family:Arial, Helvetica, sans-serif ;
   
-  }
+}
+
 
 a {
 text-decoration: none;/* decorar o texto */
@@ -63,7 +59,7 @@ height:50px 50px;/* altura */
 
 
 a:hover {
-color: black;
+color: #A2A378;
 background: #E5F9DB;
 border: 1px solid black ; /* borda */
 transition: all 0.5s; /* transição */
@@ -81,9 +77,14 @@ ul {
 .logo {
 width: 150px;
 height: 150px;
-margin-left: 1px;
+margin-left: 2px;
 }
 
-
+a {
+color: #E5F9DB;
+font-size: 20px;
+font-weight: bold;
+border-radius: 5px ;
+}
 
 
