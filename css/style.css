@@ -26,25 +26,25 @@ table.center {
 
 
 
-header {
+header{
   color: #E5F9DB;/* altera a cor da letra*/
   background: #83764F; /* altera a cor de fundo */
   font-family: 'Courier New', Courier, monospace; /* mudar a fonte */
   font-size: 15px;/* tamanho da fonte */ 
-  
+  margin: -8px;
+  display: flex;
+
 }
 
 h1 {
   text-align: center ;/* alinhamento de texto */
   background:  #83764F;
-
 }
 
 p {
   font-family:Arial, Helvetica, sans-serif ;
-  
+  margin: 10px;
 }
-
 
 a {
 text-decoration: none;/* decorar o texto */
@@ -55,6 +55,11 @@ margin: 10px;/* margem */
 display: flex;
 width: 50px 50px; /* largura */
 height:50px 50px;/* altura */
+  
+color: #E5F9DB;
+font-size: 20px;
+font-weight: bold;/* fonte em negrito */
+border-radius: 5px ;/* borda curvada */
 }
 
 
@@ -71,20 +76,17 @@ ul {
   flex-direction: row; /* direção */
   justify-content:space-evenly; /* alinhar */ 
   align-items: center;
-  
 }
 
 .logo {
 width: 150px;
 height: 150px;
 margin-left: 2px;
+cursor: pointer;
 }
 
-a {
-color: #E5F9DB;
-font-size: 20px;
-font-weight: bold;
-border-radius: 5px ;
+form{
+margin: 10px;
 }
-
+ 
 
