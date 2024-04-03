@@ -33,12 +33,24 @@ header{
   font-size: 15px;/* tamanho da fonte */ 
   margin: -8px;
   display: flex;
-
+  justify-content: space-between;
 }
+
+
+.pai{
+  display: flex;
+  }
+  
+  
 
 h1 {
   text-align: center ;/* alinhamento de texto */
-  background:  #83764F;
+  position: relative;
+  top: 40px;
+}
+
+h2{
+  font-size: 30px;
 }
 
 p {
@@ -73,6 +85,9 @@ transition: all 0.5s; /* transição */
 ul {
   list-style: none;/* estilo de lista */
   display: flex; /* exibir */
+  position: relative;
+  top: 30px;
+  right: 20px;
   flex-direction: row; /* direção */
   justify-content:space-evenly; /* alinhar */ 
   align-items: center;
@@ -83,10 +98,19 @@ width: 150px;
 height: 150px;
 margin-left: 2px;
 cursor: pointer;
+
 }
 
 form{
 margin: 10px;
 }
  
+img{
+  transition: transform 1s;
+  transform: translateX(0) scale(1);
+}
 
+img:hover{
+transition: all 0.5;  
+transform: translateX(10px) scale(1.2);
+}
