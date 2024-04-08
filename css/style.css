@@ -24,21 +24,31 @@ table.center {
 
 
 
-
-
 header{
-  color: #E5F9DB;/* altera a cor da letra*/
-  background: #83764F; /* altera a cor de fundo */
+  color: #ffffff;/* altera a cor da letra*/
+  background: #7469B6; /* altera a cor de fundo */
   font-family: 'Courier New', Courier, monospace; /* mudar a fonte */
   font-size: 15px;/* tamanho da fonte */ 
   margin: -8px;
   display: flex;
-
+  justify-content: space-between;
 }
+
+
+.pai{
+  display: flex;
+  }
+  
+  
 
 h1 {
   text-align: center ;/* alinhamento de texto */
-  background:  #83764F;
+  position: relative;
+  top: 40px;
+}
+
+h2{
+  font-size: 30px;
 }
 
 p {
@@ -56,7 +66,7 @@ display: flex;
 width: 50px 50px; /* largura */
 height:50px 50px;/* altura */
   
-color: #E5F9DB;
+color: #ffffff;
 font-size: 20px;
 font-weight: bold;/* fonte em negrito */
 border-radius: 5px ;/* borda curvada */
@@ -64,8 +74,8 @@ border-radius: 5px ;/* borda curvada */
 
 
 a:hover {
-color: #A2A378;
-background: #E5F9DB;
+color: #7469B6;
+background: #FFE6E6;
 border: 1px solid black ; /* borda */
 transition: all 0.5s; /* transição */
 }
@@ -73,6 +83,9 @@ transition: all 0.5s; /* transição */
 ul {
   list-style: none;/* estilo de lista */
   display: flex; /* exibir */
+  position: relative;
+  top: 30px;
+  right: 20px;
   flex-direction: row; /* direção */
   justify-content:space-evenly; /* alinhar */ 
   align-items: center;
@@ -89,4 +102,27 @@ form{
 margin: 10px;
 }
  
+.foto{
+  transition: transform 1s;
+  transform: translateX(0) scale(1);
+}
+
+.foto:hover{
+transition: all 0.5;  
+transform: translateX(10px) scale(1.1);
+}
+
+h2{
+  font-size: 40px;
+}
+
+.rodape{
+  position: relative;
+  top: 200px;
+}
+
+table{
+background: #FFE6E6;
+}
+
 
